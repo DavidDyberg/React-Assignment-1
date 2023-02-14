@@ -1,0 +1,61 @@
+:root {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 64px;
+  text-align: center;
+}
+
+.article-1 {
+  max-width: 600px;
+  text-align: center;
+}
+
+.article-2 {
+  background-color: rgb(85, 85, 200);
+}
+
+.article-3 {
+  background-color: cadetblue;
+}
+
+.hide-article {
+  display: none;
+}
+
+p {
+  width: 500px;
+}
+ 
+img {
+  width: 500px;
+}
+
+.Image-1 {
+  height: 432px;
+  width: 337px;
+}
+
+.Image-3 {
+  width: 250px;
+  height: 250px;
+}
+
+button {
+  background-color: rgba(138, 138, 205, 0.705);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(63, 63, 175, 0.705);
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  height: 30px;
+  
+}
+
