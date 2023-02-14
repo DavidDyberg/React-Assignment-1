@@ -12,18 +12,6 @@ function getActiveClassName (activeArticle, currentArticle) {
   }
 }
 
-//if (activeArticle === currentArticle) {
-//  return 'show-button'
-//} else {
-//  return 'hide-button'
-//}
-
-//function getActiveButtonName (activeButton, currentButton) {
-//  if (activeButton === currentButton) {
-//    return 'show-button'
-//  }
-//}
-
 function App() {
   const [activeArticle, setActiveArticle] = useState('First Article')
   
@@ -64,15 +52,4 @@ function App() {
   </>
   )
 }
-
 export default App
-
-
- //<button onClick={() => {
-  //  if (activeArticle === 'First Article') {
-  //    setActiveArticle('Seacond Article')
-  //  } else {
-  //    setActiveArticle('First Article')
-  //  }
-  //  
-  //}}>Click here to switch article</button>
